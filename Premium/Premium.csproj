@@ -92,8 +92,10 @@
     <Content Include="Content\forms\contact.php" />
     <Content Include="Content\img\about-img.png" />
     <Content Include="Content\img\apple-touch-icon.png" />
+    <Content Include="Content\img\banner1.jpg" />
+    <Content Include="Content\img\banner2.jpg" />
+    <Content Include="Content\img\bilsoft logo 2-01.png" />
     <Content Include="Content\img\bilsoftfatura9.jpg" />
-    <Content Include="Content\img\bilsoft_logo_1.png" />
     <Content Include="Content\img\blog\blog-image-1.jpg" />
     <Content Include="Content\img\blog\blog-image-2.jpg" />
     <Content Include="Content\img\blog\blog-image-3.jpg" />
@@ -104,6 +106,7 @@
     <Content Include="Content\img\hero-bg.png" />
     <Content Include="Content\img\hero-img.png" />
     <Content Include="Content\img\la.jpg" />
+    <Content Include="Content\img\News-cuate2.png" />
     <Content Include="Content\img\newsletter-bg.jpg" />
     <Content Include="Content\img\ny.jpg" />
     <Content Include="Content\img\Online2019_withPC.png" />
@@ -121,6 +124,7 @@
     <Content Include="Content\img\svg\cloud.svg" />
     <Content Include="Content\img\svg\code.svg" />
     <Content Include="Content\img\svg\design-tool.svg" />
+    <Content Include="Content\img\svg\News-cuate.svg" />
     <Content Include="Content\img\svg\paint-palette.svg" />
     <Content Include="Content\img\svg\pixel.svg" />
     <Content Include="Content\img\svg\planet.svg" />
@@ -220,6 +224,7 @@
     <Content Include="Views\Premium\Index.cshtml" />
     <Content Include="Views\Premium\FeaturesPage.cshtml" />
     <Content Include="Views\Premium\ContactPage.cshtml" />
+    <Content Include="Views\Premium\BlogPage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -23,5 +23,10 @@ namespace Premium.Controllers
         {
             return View();
         }
+
+        public ActionResult BlogPage()
+        {
+            return View();
+        }
     }
 }
