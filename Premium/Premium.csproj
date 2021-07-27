@@ -110,6 +110,7 @@
     <Content Include="Content\img\newsletter-bg.jpg" />
     <Content Include="Content\img\ny.jpg" />
     <Content Include="Content\img\Online2019_withPC.png" />
+    <Content Include="Content\img\perfil.jpg" />
     <Content Include="Content\img\screen\1.jpg" />
     <Content Include="Content\img\screen\2.jpg" />
     <Content Include="Content\img\screen\3.jpg" />
@@ -135,7 +136,19 @@
     <Content Include="Content\img\team\3.jpg" />
     <Content Include="Content\img\team\4.jpg" />
     <Content Include="Content\img\video-bg.jpg" />
+    <Content Include="Content\img\icons\cari stok takibi.png" />
+    <Content Include="Content\img\icons\e-ticaret.png" />
+    <Content Include="Content\img\icons\exel veri aktarımı.png" />
+    <Content Include="Content\img\icons\faturada döviz.png" />
+    <Content Include="Content\img\icons\kolay kullanım.png" />
+    <Content Include="Content\img\icons\premium mega.png" />
+    <Content Include="Content\img\icons\premium plus.png" />
+    <Content Include="Content\img\icons\stok sayımı.png" />
+    <Content Include="Content\img\icons\vade takip.png" />
+    <Content Include="Content\img\icons\vip teknik destek.png" />
+    <Content Include="Content\img\icons\ömür boyu lisans.png" />
     <Content Include="Content\js\main.js" />
+    <Content Include="Content\js\menumain.js" />
     <Content Include="Content\vendor\aos\aos.css" />
     <Content Include="Content\vendor\aos\aos.js" />
     <Content Include="Content\vendor\bootstrap-icons\bootstrap-icons.css" />

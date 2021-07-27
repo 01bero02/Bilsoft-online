@@ -7194,6 +7194,7 @@ Tween.prototype = {
 			Tween.propHooks._default.set( this );
 		}
 		return this;
+		
 	}
 };
 
