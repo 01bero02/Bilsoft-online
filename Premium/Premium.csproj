@@ -120,6 +120,7 @@
     <Content Include="Content\img\screen\7.jpg" />
     <Content Include="Content\img\screen\8.jpg" />
     <Content Include="Content\img\screen\9.jpg" />
+    <Content Include="Content\img\Silinecekler\HizliSatisProgrami.png" />
     <Content Include="Content\img\svg\asteroid.svg" />
     <Content Include="Content\img\svg\cloud-computing.svg" />
     <Content Include="Content\img\svg\cloud.svg" />
