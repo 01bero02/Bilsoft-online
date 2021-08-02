@@ -124,8 +124,15 @@
     <Content Include="Content\img\screen\7.jpg" />
     <Content Include="Content\img\screen\8.jpg" />
     <Content Include="Content\img\screen\9.jpg" />
+    <Content Include="Content\img\Silinecekler\barkod listesi.png" />
     <Content Include="Content\img\Silinecekler\EFaturaModulu.png" />
     <Content Include="Content\img\Silinecekler\HizliSatisProgrami.png" />
+    <Content Include="Content\img\Silinecekler\moka_odemeform.jpg" />
+    <Content Include="Content\img\Silinecekler\OromatikYedeklemeModulu.png" />
+    <Content Include="Content\img\Silinecekler\personel-takip.png" />
+    <Content Include="Content\img\Silinecekler\StokRiskLimitModulu.png" />
+    <Content Include="Content\img\Silinecekler\teklifsiparis.jpg" />
+    <Content Include="Content\img\Silinecekler\vade-takibi1.png" />
     <Content Include="Content\img\svg\asteroid.svg" />
     <Content Include="Content\img\svg\cloud-computing.svg" />
     <Content Include="Content\img\svg\cloud.svg" />
