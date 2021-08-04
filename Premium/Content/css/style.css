@@ -2057,9 +2057,11 @@ h1 {
     padding: 10px 22px 10px 15px;
     margin: 0px 0px 0px 0px;
     background: #edf9ff;
-    border-top: 1px solid #909090;
-    border-left: 1px solid #909090;
+    border-bottom: 1px solid #909090;
     border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #505050;
+    -moz-box-shadow: 0 8px 6px -6px #505050;
+    box-shadow: 0 8px 6px -6px #505050;
 }
 
 .but_hizlisatis {
@@ -2068,8 +2070,11 @@ h1 {
     padding: 10px 22px 10px 15px;
     margin: 0px 0px 0px 0px;
     background: #fff6ed;
-    border-left: 1px solid #909090;
+    border-bottom: 1px solid #909090;
     border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #505050;
+    -moz-box-shadow: 0 8px 6px -6px #505050;
+    box-shadow: 0 8px 6px -6px #505050;
 }
 
 .but_barkod {
@@ -2078,8 +2083,11 @@ h1 {
     padding: 10px 22px 10px 15px;
     margin: 0px 0px 0px 0px;
     background: #edfff3;
-    border-left: 1px solid #909090;
+    border-bottom: 1px solid #909090;
     border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #505050;
+    -moz-box-shadow: 0 8px 6px -6px #505050;
+    box-shadow: 0 8px 6px -6px #505050;
 }
 
 .but_yedekleme {
@@ -2088,8 +2096,11 @@ h1 {
     padding: 10px 22px 10px 15px;
     margin: 0px 0px 0px 0px;
     background: #ffedee;
-    border-left: 1px solid #909090;
+    border-bottom: 1px solid #909090;
     border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #505050;
+    -moz-box-shadow: 0 8px 6px -6px #505050;
+    box-shadow: 0 8px 6px -6px #505050;
 }
 
 .but_stokRisk {
@@ -2098,8 +2109,11 @@ h1 {
     padding: 10px 22px 10px 15px;
     margin: 0px 0px 0px 0px;
     background: #fbedff;
-    border-left: 1px solid #909090;
+    border-bottom: 1px solid #909090;
     border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #505050;
+    -moz-box-shadow: 0 8px 6px -6px #505050;
+    box-shadow: 0 8px 6px -6px #505050;
 }
 
 .but_etahsilat {
@@ -2108,8 +2122,11 @@ h1 {
     padding: 10px 22px 10px 15px;
     margin: 0px 0px 0px 0px;
     background: #ffedf7;
-    border-left: 1px solid #909090;
+    border-bottom: 1px solid #909090;
     border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #505050;
+    -moz-box-shadow: 0 8px 6px -6px #505050;
+    box-shadow: 0 8px 6px -6px #505050;
 }
 
 .but_teklif {
@@ -2118,8 +2135,11 @@ h1 {
     padding: 10px 22px 10px 15px;
     margin: 0px 0px 0px 0px;
     background: #edf9ff;
-    border-left: 1px solid #909090;
+    border-bottom: 1px solid #909090;
     border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #505050;
+    -moz-box-shadow: 0 8px 6px -6px #505050;
+    box-shadow: 0 8px 6px -6px #505050;
 }
 
 .but_personel {
@@ -2128,8 +2148,11 @@ h1 {
     padding: 10px 22px 10px 15px;
     margin: 0px 0px 0px 0px;
     background: #fff6ed;
-    border-left: 1px solid #909090;
+    border-bottom: 1px solid #909090;
     border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #505050;
+    -moz-box-shadow: 0 8px 6px -6px #505050;
+    box-shadow: 0 8px 6px -6px #505050;
 }
 
 .but_vade {
@@ -2139,33 +2162,30 @@ h1 {
     margin: 0px 0px 0px 0px;
     background: #edfff3;
     border-bottom: 1px solid #909090;
-    border-left: 1px solid #909090;
     border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #505050;
+    -moz-box-shadow: 0 8px 6px -6px #505050;
+    box-shadow: 0 8px 6px -6px #505050;
 }
 
 
 /*--------------------------------------------------------------
 # Details
 --------------------------------------------------------------*/
-/*.details .content + .content {
+.details .container + .container {
     margin-top: 100px;
 }
 
-.details .content h3 {
-    font-weight: 600;
-    font-size: 26px;
-    color:#47287e ;
-}
 
-.details .content ul {
+.details .container ul {
     list-style: none;
     padding: 0;
 }
 
-.details .content li {
-    list-style: square;
+.details .container li {
+    list-style:square;
     padding: 0;
-    font-size: 18px;
+    font-size: 20px;
     color: #505050;
     font-weight: 100;
     letter-spacing:normal;
@@ -2173,28 +2193,19 @@ h1 {
     text-transform:none;
 }
 
-    .details .content ul li {
+    .details .container ul li {
         padding-bottom: 10px;
     }
 
-    .details .content ul i {
+    .details .container ul i {
         font-size: 20px;
         padding-right: 4px;
        
     }
 
-.details .content p:last-child {
+.details .container p:last-child {
     margin-bottom: 0;
 }
-
-
-
-*/
-
-
-
-
-
 
 
 .page-section {
@@ -2216,13 +2227,14 @@ h1 {
 .page-section:not(.fg-white) h1, .page-section:not(.fg-white) h2, .page-section:not(.fg-white) h3 {
     color: #6b6872;
 }
-    .card-page2{
+.card-page2 {
     position: relative;
     padding: 20px;
-    background-color: #6b68722e;
+    background-color: #f9f9ff;
     color: #6b6872;
     border-radius: 44px;
-    box-shadow: 0 2px 12px rgb(95 90 104 / 12%);
+    box-shadow: 0 2px 12px rgb(95 90 104 / 5%);
+    margin-bottom: 50px;
 }
 
 
