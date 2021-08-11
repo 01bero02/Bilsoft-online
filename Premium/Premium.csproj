@@ -90,8 +90,10 @@
   <ItemGroup>
     <Content Include="Content\css\style.css" />
     <Content Include="Content\forms\contact.php" />
+    <Content Include="Content\img\anasayfa_slider_begum.jpg" />
     <Content Include="Content\img\banner1.jpg" />
     <Content Include="Content\img\banner2.jpg" />
+    <Content Include="Content\img\BEGÜM BANNER.jpg" />
     <Content Include="Content\img\bilsoft logo 2-01.png" />
     <Content Include="Content\img\bilsoftfatura9.jpg" />
     <Content Include="Content\img\blog\blog-image-1.jpg" />
@@ -121,6 +123,7 @@
     <Content Include="Content\img\icons\barkod-listeleri.svg" />
     <Content Include="Content\img\icons\e-fatura.svg" />
     <Content Include="Content\img\icons\e-tahsilat.svg" />
+    <Content Include="Content\img\icons\guvenli-veri-depolama.png" />
     <Content Include="Content\img\icons\hizli-satis.svg" />
     <Content Include="Content\img\icons\kasa-banka-takip.png" />
     <Content Include="Content\img\icons\News-cuate kopya.png" />
@@ -134,6 +137,7 @@
     <Content Include="Content\img\newsletter-bg.jpg" />
     <Content Include="Content\img\Online2019_withPC.png" />
     <Content Include="Content\img\Panorama.jpg" />
+    <Content Include="Content\img\shutterstock_1415544515_2.png" />
     <Content Include="Content\img\svg\asteroid.svg" />
     <Content Include="Content\img\svg\cloud-computing.svg" />
     <Content Include="Content\img\svg\cloud.svg" />
@@ -264,6 +268,7 @@
     <Content Include="Views\Premium\FeaturesPage.cshtml" />
     <Content Include="Views\Premium\ContactPage.cshtml" />
     <Content Include="Views\Premium\BlogPage.cshtml" />
+    <Content Include="Views\Premium\SupportPage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

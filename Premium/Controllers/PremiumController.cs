@@ -28,5 +28,10 @@ namespace Premium.Controllers
         {
             return View();
         }
+
+        public ActionResult SupportPage()
+        {
+            return View();
+        }
     }
 }
