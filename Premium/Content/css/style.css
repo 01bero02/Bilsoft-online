@@ -719,17 +719,27 @@ section {
 --------------------------------*/
 
 .about-content {
-    text-indent: 50px;
+  
     font-family: "Nunito", sans-serif;
     font-size: 24px;
     width: 900px;
     margin: auto;
 }
 
-.sola-kaydir {
-    float: left;
-    padding: 0 10px 10px 0;
-}
+    .about-content p {
+        font-size: 18px;
+       
+    }
+   
+    #about-us .about-content h3 {
+        text-align: left;
+        font-size:26px;
+        font-weight:200;
+    }
+        .sola-kaydir {
+        float: left;
+        padding: 0 10px 10px 0;
+    }
 
 
 #about-us img {
@@ -744,10 +754,11 @@ section {
         color: #252525;
         font-family: "Nunito", sans-serif;
         font-size: 39px;
-        font-weight: 100;
+        font-weight: 300;
         letter-spacing: 2px;
         margin-bottom: 20px;
         text-transform: capitalize;
+        text-align:left;
     }
 
 #about-us .about-content span {
@@ -2256,14 +2267,22 @@ h1 {
 
 /* Support Page */
 
+.supportPage .section-title h2 {
+    color: dimgray;
+    text-align: center;
+    font-weight:400;
+}
+
     #support-id a {
         color: #450d87;
         font-weight: bold;
     }
 
 #support-button {
+    font-size:14px;
     border: 1px solid #47287e;
     color: #47287e;
+    font-weight:bold;
 }
 
         #support-button:hover {
@@ -2272,11 +2291,33 @@ h1 {
         }
 
     #support-table {
-        font-size: 14px;
+        margin-top:150px;
+        margin-bottom:150px;
+        font-size: 20px;
+        
     }
 
 
 
+.supportPage #info-support h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.supportPage #info-support p {
+    font-size: 20px;
+    
+}
+
+.supportPage #form-support input{
+    font-size:17px;
+}
+
+.supportPage #form-support textarea {
+    font-size: 17px;
+}
+
+
+    
 
 
 
