@@ -148,11 +148,20 @@ span {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    transition: all 0.5s ease;
+    padding: 20px 0;
+    position:sticky;
+    /* background: #fff;
   z-index: 997;
   transition: all 0.5s ease;
   padding: 20px 0;
-  position:sticky;
+  position:sticky;*/
 }
 
 #header #logo h1 {
@@ -185,7 +194,7 @@ span {
     }
 
 #header #logo img {
-    max-height: 80px;
+    max-height: 73px;
   padding: 0;
 
 }
@@ -228,8 +237,9 @@ span {
         justify-content: space-between;
         padding: 10px 0 10px 30px;
         font-family: "Nunito", sans-serif;
-        font-size: 20px;
-        color: #222;
+        font-size: 18px;
+        color: #505050;
+        font-weight:400;
         white-space: nowrap;
         transition: 0.3s;
         letter-spacing: 0;
@@ -312,7 +322,8 @@ span {
     padding: 8px 20px;
     margin-left: 30px;
     border-radius: 50px;
-   
+    color: #47287e;
+    font-weight:500;
 }
 
     .navbar .getstarted:hover {
@@ -321,7 +332,8 @@ span {
     }
 
 #NavbarLogo{
-    margin-right: 25rem ;
+   
+    margin-right: 4.5rem ;
 }
 
 
@@ -730,11 +742,13 @@ section {
         font-size: 18px;
        
     }
-   
-    #about-us .about-content h3 {
-        text-align: left;
-        font-size:26px;
-        font-weight:200;
+
+#about-us .about-content h3 {
+    text-align: left;
+    font-size: 26px;
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 0;
     }
         .sola-kaydir {
         float: left;
@@ -743,7 +757,7 @@ section {
 
 
 #about-us img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 #about-us .about-content {
@@ -756,7 +770,7 @@ section {
         font-size: 39px;
         font-weight: 300;
         letter-spacing: 2px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         text-transform: capitalize;
         text-align:left;
     }
@@ -777,7 +791,7 @@ section {
 
 /* Features Section
 --------------------------------*/
-#features {
+    #features {
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -1265,10 +1279,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-    background: #a099aa;
+    background: #f5f5fb;
     padding: 0 0 5px 1px;
     font-size: 14px;
-    color:black;
+    color: black;
 }
 
     .footer .footer-newsletter {
@@ -1339,12 +1353,13 @@ section {
     margin-top:0px;
     margin-bottom: 0px;
     text-decoration:none;
+    text-align:left;
 }
 
     .footer .footer-top .footer-info .logo {
         line-height: 0;
         margin-bottom: 15px;
-        margin-left: 50px;
+        text-align:left;
     }
     
 
@@ -1367,7 +1382,6 @@ section {
         line-height: 24px;
         margin-bottom: 0;
         font-family: "Nunito", sans-serif;
-        margin-left: 50px;
         color: #2d2e29;
     }
     
@@ -1396,7 +1410,7 @@ section {
 
 .footer .footer-top .footer-links {
     
-    margin-top:55px;
+    margin-top:70px;
 }
 
     .footer .footer-top .footer-links ul {
@@ -1442,8 +1456,7 @@ section {
 }
 
 .footer .copyright {
-    text-align: center;
-    padding: 10px 0 0px 0;
+    
     color: #2d2e29;
 }
 
@@ -2083,6 +2096,7 @@ h1 {
     -webkit-box-shadow: 0 8px 6px -6px #e4e4e6;
     -moz-box-shadow: 0 8px 6px -6px #e4e4e6;
     box-shadow: 0 8px 6px -6px #505050;
+  
 }
 
 .but_hizlisatis {
@@ -2095,6 +2109,7 @@ h1 {
     -webkit-box-shadow: 0 8px 6px -6px #e4e4e6;
     -moz-box-shadow: 0 8px 6px -6px #e4e4e6;
     box-shadow: 0 8px 6px -6px #505050;
+  
 }
 
 .but_barkod {
@@ -2300,12 +2315,18 @@ h1 {
 
 
 .supportPage #info-support h4 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
+    text-align:left;
+    text-transform:none;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
 }
 .supportPage #info-support p {
-    font-size: 20px;
-    
+    font-size: 18px;
+    text-align: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .supportPage #form-support input{
@@ -2316,12 +2337,13 @@ h1 {
     font-size: 17px;
 }
 
+.supportPage #support-table th {
+    font-weight: 400;
+}
 
-    
-
-
-
-
+.supportPage #support-table td {
+    font-weight: 300;
+}
 
 
 

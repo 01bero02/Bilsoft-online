@@ -90,7 +90,7 @@
   <ItemGroup>
     <Content Include="Content\css\style.css" />
     <Content Include="Content\forms\contact.php" />
-    <Content Include="Content\img\anasayfa_slider_begum.jpg" />
+    <Content Include="Content\img\anasayfa_slider_begum %282%29.jpg" />
     <Content Include="Content\img\banner1.jpg" />
     <Content Include="Content\img\banner2.jpg" />
     <Content Include="Content\img\BEGÜM BANNER.jpg" />
