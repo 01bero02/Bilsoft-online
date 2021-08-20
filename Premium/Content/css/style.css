@@ -992,8 +992,8 @@ section {
 
     .container #pricing-box .btn {
         position: absolute;
-        bottom: 25px;
-        left:185px;
+        bottom: 50px;
+        left:190px;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         background-color: #f1f1f1;
@@ -1691,26 +1691,21 @@ h1 {
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     }
 
-        .blog .entry .entry-img {
-            max-height: 440px;
-            margin: -30px -30px 20px -30px;
-            overflow: hidden;
-
-        }
-
         .blog .entry .entry-title {
             font-size: 28px;
-            font-weight: bold;
+            font-weight:300;
             padding: 0;
             margin: 0 0 20px 0;
         }
 
-            .blog .entry .entry-title a {
+            .blog .entry .entry-title i {
                 color: #47287e;
                 transition: 0.3s;
+                font-style:normal;
             }
+          
 
-                .blog .entry .entry-title a:hover {
+                .blog .entry .entry-title i:hover {
                     color: #22b7b3;
                 }
 
@@ -1787,7 +1782,7 @@ h1 {
                 color: #444444;
                 line-height: 1.6;
                 margin-bottom: 0;
-                font-style: italic;
+                
                 font-weight: 500;
                 font-size: 22px;
             }
@@ -1892,7 +1887,7 @@ h1 {
             }
 
         .blog .blog-author p {
-            font-style: italic;
+            
             color: #b7b7b7;
         }
 

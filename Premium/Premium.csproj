@@ -120,15 +120,14 @@
     <Content Include="Content\img\featuresicon\teklif-siparis.svg" />
     <Content Include="Content\img\featuresicon\vade-takip.png" />
     <Content Include="Content\img\featuresicon\vade-takip.svg" />
+    <Content Include="Content\img\icons\Asset 20.png" />
+    <Content Include="Content\img\icons\Asset 21.png" />
     <Content Include="Content\img\icons\barkod-listeleri.svg" />
     <Content Include="Content\img\icons\e-fatura.svg" />
     <Content Include="Content\img\icons\e-tahsilat.svg" />
     <Content Include="Content\img\icons\guvenli-veri-depolama.png" />
     <Content Include="Content\img\icons\hizli-satis.svg" />
     <Content Include="Content\img\icons\kasa-banka-takip.png" />
-    <Content Include="Content\img\icons\News-cuate kopya.png" />
-    <Content Include="Content\img\icons\online-kart-1-yil.png" />
-    <Content Include="Content\img\icons\online-kart-3-yil.png" />
     <Content Include="Content\img\icons\otomatik-yedekleme.svg" />
     <Content Include="Content\img\icons\personel-takip.svg" />
     <Content Include="Content\img\icons\stok-risk-limiti.svg" />
